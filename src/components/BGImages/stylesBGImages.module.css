@@ -1,0 +1,17 @@
+.backGroundLayer1,
+.backGroundLayer2 {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+.backGroundLayer3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.backGroundLayer2 {
+  width: 100%;
+}

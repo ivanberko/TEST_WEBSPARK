@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  width: 100vw;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+  color: #212121;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background-image: url(img/White_Background.jpg);
+  position: relative;
+}

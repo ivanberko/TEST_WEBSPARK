@@ -1,0 +1,71 @@
+.card {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #fff;
+  font-weight: 700;
+}
+
+.card:last-child {
+  margin-bottom: 46px;
+}
+
+.card img {
+  width: 95px;
+}
+
+.cardStat {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.statToday p,
+.statOnDate p {
+  text-align: left;
+}
+
+.statToday div,
+.statOnDate div {
+  display: flex;
+  align-items: center;
+}
+
+.statLikes,
+.statComments {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.statLikes {
+  margin-right: 22px;
+}
+
+.statUpload {
+  text-align: left;
+}
+
+.statComments::before {
+  content: '';
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background-image: url(../../../src/img/icon/ic_mode_comment_black_24dp_2x.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 4px;
+}
+
+.statLikes::before {
+  content: '';
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background-image: url(../../../src/img/icon/ic_favorite_black_24dp_2x.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 4px;
+}

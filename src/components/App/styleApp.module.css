@@ -1,0 +1,17 @@
+main {
+  width: 935px;
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.dataPicker {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,44 @@
+header {
+  padding-top: 14px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 136px;
+  height: 150px;
+  margin-left: 70px;
+  margin-right: 110px;
+}
+
+.profileTitle {
+  display: flex;
+  align-items: center;
+}
+
+.profileTitle h2 {
+  margin: 0;
+  color: #262626;
+  font-weight: 400;
+  font-size: 35px;
+  margin-right: 20px;
+}
+
+.profileTitle span {
+  color: #4090db;
+  font-size: 15px;
+  border: 1px solid #4090db;
+  border-radius: 4px;
+  padding: 4px 6px;
+}
+
+.stats {
+  display: flex;
+}
+
+.stats p:not(:last-child) {
+  margin-right: 30px;
+}
+
+.stats span {
+  font-weight: 700;
+}

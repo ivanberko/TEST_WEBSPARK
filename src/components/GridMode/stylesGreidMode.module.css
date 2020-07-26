@@ -1,0 +1,77 @@
+.card {
+  position: relative;
+  width: 290px;
+  height: 290px;
+  margin-bottom: 30px;
+}
+
+.cardStat {
+  position: absolute;
+  width: 290px;
+  height: 290px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 14px;
+}
+
+.statToday,
+.statOnDate {
+  display: flex;
+  padding-left: 20px;
+}
+
+.statToday {
+  margin-bottom: 24px;
+}
+
+.statOnDate {
+  margin-bottom: 82px;
+}
+
+.statToday p,
+.statOnDate p {
+  font-size: 17px;
+  margin: 0;
+  width: 40%;
+  text-align: left;
+}
+
+.statToday div,
+.statOnDate div {
+  display: flex;
+  width: 60%;
+}
+
+.statLikes,
+.statComments {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.statComments::before {
+  content: '';
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background-image: url(../../../src/img/icon/ic_mode_comment_black_24dp_2x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 4px;
+}
+
+.statLikes::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../../src/img/icon/ic_favorite_black_24dp_2x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 4px;
+}
